@@ -2,7 +2,7 @@
 
 Transform geotechnical AGS files into interactive web maps that stakeholders can explore in any browser.
 
-![Screenshot of the webmap showing ground investigation locations](screenshot_resized.png)
+![Screenshot of the webmap showing ground investigation locations](screenshot.png)
 
 ## Overview
 
