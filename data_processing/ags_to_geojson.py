@@ -26,9 +26,9 @@ def _(ags_files, mo):
 
     We'll work with real Ground Investigation (GI) data from the Kai Tak neighborhood in Hong Kong.
 
-    ## The Challenge: Making Technical Data Accessible
+    ## Making GI Data Accessible
 
-    Ground investigation data typically lives in AGS text files that require specialized software to read. Instead of sharing folders of technical files, we'll create data that works in any web browser.
+    GI data typically lives in AGS text files that require specialized software to read. Instead of sharing folders of technical files, we'll create data that works in any web browser.
 
     Here's what raw AGS data looks like - not very accessible for stakeholders:
 
@@ -36,7 +36,7 @@ def _(ags_files, mo):
     {"\n".join(ags_files[0].read_text().splitlines()[0:20])}
     ```
 
-    ## Our Solution: Web-Ready Geospatial Data
+    ## GI Data Webmap
 
     We'll transform this technical data into:
     - **GeoJSON** for map locations (readable by web mapping libraries)  
